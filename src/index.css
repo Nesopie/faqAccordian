@@ -89,3 +89,72 @@ hr {
     position: relative;
     z-index: -1;
 }
+
+@media screen and (min-width: 786px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: row;
+        background-color: white;
+        padding: 0;
+        min-width: 70vw;
+        max-width: 70vw;
+        height: 55vh;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .wrapper {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .cardIcon {
+        position: relative;
+        width: 100%;
+    }
+
+    body {
+        display: flex;
+        margin: 0 auto;
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardContainer {
+        text-align: left;
+        padding-right: 100px;
+    }
+
+    .faq {
+        text-align: left;
+    }
+
+    .imgContainer {
+        position: relative;
+        margin: 0;
+    }
+
+    .cardIcon {
+        position: relative;
+        transform: scale(0.9);
+    }
+
+    .cardIcon2 {
+        position: absolute;
+        width: 40%;
+        left: -75px;
+        z-index: -2;
+    }
+
+    .img1 {
+        position: relative;
+        right: 115px;
+    }
+
+    .itemContainer:hover {
+        color: hsl(14, 88%, 65%);
+    }
+}

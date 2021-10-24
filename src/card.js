@@ -99,7 +99,9 @@ const CardContainer = (props) => {
     return (
         <div className="container">
             <div className="imgContainer">
-                <img src={woman} alt="woman" className="cardIcon"/>
+                <div className="img1">
+                    <img src={woman} alt="woman" className="cardIcon"/>
+                </div>
                 <img src={shadow} alt="shdow" className="cardIcon2"/>
             </div>
             <div className="wrapper">
