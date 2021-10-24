@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 5vh 0 5vh 0;
+    font-family: "Kumbh Sans";
+}
+
+.container {
+    background-color: red;
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: -200px;
+}
+
+.cardContainer {
+    /* transform: translateY(-20%); */
+    padding: 20px;
+}
+
+.imgContainer {
+    /* position: relative; */
+    margin: 2vh 10vw 0 10vw;
+}
+
+.container > div {
+    /* transform: translateY(-20%); */
+    /* margin-top: 20%: */
+    padding-top: -300px;
+}
+
+.imgContainer::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background: url("./images/bg-pattern-mobile.svg") no-repeat top;
+}
