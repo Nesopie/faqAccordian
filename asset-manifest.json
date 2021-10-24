@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/faqAccordian/static/css/main.afd7172b.chunk.css",
+    "main.js": "/faqAccordian/static/js/main.9a32d301.chunk.js",
+    "main.js.map": "/faqAccordian/static/js/main.9a32d301.chunk.js.map",
+    "runtime-main.js": "/faqAccordian/static/js/runtime-main.2d1b3ff4.js",
+    "runtime-main.js.map": "/faqAccordian/static/js/runtime-main.2d1b3ff4.js.map",
+    "static/js/2.4fc8af0f.chunk.js": "/faqAccordian/static/js/2.4fc8af0f.chunk.js",
+    "static/js/2.4fc8af0f.chunk.js.map": "/faqAccordian/static/js/2.4fc8af0f.chunk.js.map",
+    "index.html": "/faqAccordian/index.html",
+    "static/css/main.afd7172b.chunk.css.map": "/faqAccordian/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.4fc8af0f.chunk.js.LICENSE.txt": "/faqAccordian/static/js/2.4fc8af0f.chunk.js.LICENSE.txt",
+    "static/media/bg-pattern-mobile.55aee912.svg": "/faqAccordian/static/media/bg-pattern-mobile.55aee912.svg",
+    "static/media/illustration-woman-online-mobile.fe928f9c.svg": "/faqAccordian/static/media/illustration-woman-online-mobile.fe928f9c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d1b3ff4.js",
+    "static/js/2.4fc8af0f.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.9a32d301.chunk.js"
+  ]
+}
