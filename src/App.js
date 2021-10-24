@@ -1,11 +1,15 @@
-import CardContainer from './card.js'
+import React, { useEffect } from 'react';
+import CardContainer from './card.js';
 
 function App() {
-    const imgContainerHeight = document.querySelector(".imgContainer");
-    const cardContainerHeight = document.querySelector(".cardContainer");
+    useEffect(() => {
+        const imgContainerHeight = document.querySelector(".imgContainer").offsetHeight;
+        const wrapper = document.querySelector(".wrapper");
+        wrapper.setAttribute("style", `bottom: ${imgContainerHeight*0.4}px; padding-top: ${imgContainerHeight*0.6}px`);
+    });
 
   return (
-      <CardContainer />
+      <CardContainer/>
   );
 }
 
